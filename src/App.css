@@ -1,0 +1,65 @@
+.app-root {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #f7fafc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background: #234e5e;
+  color: #fff;
+  padding: 32px 0 18px 0;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.03em;
+}
+.main-controls {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 12px 0 12px 0;
+  border-bottom: 1px solid #e3e3e3;
+  gap: 18px;
+  justify-content: center;
+}
+.main-layout {
+  display: flex;
+  flex: 1;
+  padding: 24px 0 16px 0;
+  gap: 0;
+  background: #fff;
+  justify-content: center;
+  min-height: 440px;
+}
+.panel {
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(90,120,130,0.06);
+  margin: 0 18px;
+  padding: 18px 14px 14px 14px;
+  min-width: 195px;
+  max-width: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.network-builder {
+  background: #f9f9f9;
+  min-width: 380px;
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(90,120,130,0.06);
+  margin: 0 18px;
+  padding: 18px 20px 14px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  background: #234e5e;
+  color: #fff;
+  text-align: center;
+  padding: 16px 0;
+  font-size: 1.05rem;
+  position: relative;
+}
